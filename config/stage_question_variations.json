@@ -1,0 +1,539 @@
+{
+  "S-Mapping": {
+    "1": {
+      "canonical": "What would you like to work with?",
+      "variations": [
+        "What would you like to work with today?",
+        "What is the primary goal you want to achieve today?",
+        "What specific problem are we tackling today?",
+        "What is the main issue bringing you to coaching right now?",
+        "Aaj hum kis baare mein baat karenge?",
+        "Aap aaj kis problem par focus karna chahte hain?",
+        "Kya main issue hai jisko aaj hum solve karenge?"
+      ]
+    },
+    "2": {
+      "canonical": "Is there anything else that you would like to tell me about this challenge?",
+      "variations": [
+        "Is there anything else that you would like to tell me about this specific challenge?",
+        "Are there any other side-effects or details about this particular issue?",
+        "What else is related to this exact situation?",
+        "Before we move on, is there any other aspect of this specific problem?",
+        "Kya is challenge ke baare mein aur kuch bhi hai jo aap share karna chahenge?",
+        "Aur kuch details hain is problem se related?",
+        "Is issue ke baare mein aur kuch bataana chahenge?"
+      ]
+    },
+    "3": {
+      "canonical": "Anything else about you that you think is important for me to know?",
+      "variations": [
+        "Anything else about you personally that you think is important for me to know?",
+        "Is there anything in your personal background that might affect this?",
+        "What else about your personality or past is relevant here?",
+        "Are there any personal traits or history I should be aware of?",
+        "Aapke background ya personality ke baare mein kuch aur important hai?",
+        "Kya aapke baare mein aisi koi baat hai jo is problem se judi ho?",
+        "Aur kuch personal detail jo aapko lagta hai mujhe pata honi chahiye?"
+      ]
+    },
+    "4": {
+      "canonical": "Can you read this and let me know if this is complete or would you like to add or change something in this?",
+      "variations": [
+        "Can you read this and let me know if this is complete or would you like to add or change something?",
+        "Take a look at this summary — does it look complete to you?",
+        "Does this capture everything, or is there something you'd like to change?",
+        "Here's what I've gathered — anything to add or fix?",
+        "Let me read back what you've shared — does that sound right?",
+        "Is this an accurate summary, or would you tweak anything?",
+        "Kya aap isko padh kar bata sakte hain ki ye complete hai ya kuch add karna hai?",
+        "Maine jo summary likhi hai, kya usme kuch badalna chahenge?",
+        "Ek baar dekh lijiye, kya ye sahi lag raha hai aapko?"
+      ]
+    },
+    "5": {
+      "canonical": "Now that we have all these details, would you be able to summarize this in your own words in 3 or 4 lines?",
+      "variations": [
+        "Now that we have all these details, could you summarize this in your own words in 3-4 lines?",
+        "Can you sum all this up for me in a few sentences?",
+        "Could you put this all together in your own words, just a few lines?",
+        "Would you be able to wrap this up in a short summary, 3-4 lines?",
+        "Can you condense everything we've talked about into a few sentences?",
+        "In your own words, how would you summarize all of this?",
+        "Ab jab hamare paas sab details hain, kya aap isko 3-4 lines me summarize kar sakte hain?",
+        "Kya aap in sab baaton ko apne shabdon mein thoda short mein bata sakte hain?",
+        "Apni language mein in sab ka ek chota summary de sakte hain?"
+      ]
+    },
+    "6": {
+      "canonical": "Can you read the summary and let me know if it captures what you have shared with me till here?",
+      "variations": [
+        "Can you read the summary and let me know if it captures what you've shared so far?",
+        "Does that summary capture everything you've told me?",
+        "Does this feel like an accurate summary of what we've discussed?",
+        "Reading that back, does it reflect what you meant?",
+        "Does that sound complete, or is something missing?",
+        "Is this summary a fair reflection of what you've shared?",
+        "Kya ye summary padh kar lagta hai ki aapne jo bataya wo sab cover ho gaya?",
+        "Jo summary maine banai hai, kya wo aapki baaton ko sahi se capture karti hai?",
+        "Isko padhiye aur bataiye kya kuch miss toh nahi hua?"
+      ]
+    },
+    "7": {
+      "canonical": "Would you be able to rephrase the summary using the following format: I feel __ About __ When __",
+      "variations": [
+        "Could you rephrase your summary using this format: I feel ___ About ___ When ___",
+        "Can you put that into the format: I feel [emotion] about [thing] when [situation]?",
+        "Would you be able to restate that as 'I feel ___ about ___ when ___'?",
+        "Let's format this as I feel / about / when — can you try that?",
+        "Can you rework your summary into that feel-about-when structure?",
+        "Try phrasing it like: I feel [X] about [Y] when [Z] — what would that look like for you?",
+        "Kya aap is summary ko is format me rephrase kar sakte hain: I feel __ About __ When __?",
+        "Kya hum isko I feel, About aur When wale structure me likh sakte hain?",
+        "Apni problem ko is therapeutic format mein rephrase karein: Mujhe kaisa feel hota hai, kis baare mein, aur kab hota hai?"
+      ]
+    },
+    "8": {
+      "canonical": "Does this capture the current challenge completely?",
+      "variations": [
+        "Does this capture the current challenge completely?",
+        "Does that fully capture what you're dealing with?",
+        "Is this a complete picture of the challenge?",
+        "Does this cover everything about your current situation?",
+        "Do you feel like this fully represents the problem?",
+        "Is there anything missing from this picture of the challenge?",
+        "Kya isme aapka current challenge poori tarah capture ho gaya hai?",
+        "Kya aapko lagta hai ki is problem ka poora picture clear hai ab?",
+        "Kya yeh summary aapke challenge ko fully describe karti hai?"
+      ]
+    },
+    "8a": {
+      "canonical": "Feel free to add additional sentences in this format: I feel __ About __ When __",
+      "variations": [
+        "Feel free to add more sentences in this format: I feel ___ About ___ When ___",
+        "Go ahead and add another one using the same feel-about-when format.",
+        "Can you add more using that same structure?",
+        "Let's add another line in that same I feel/about/when format.",
+        "Try adding a bit more detail using that same format.",
+        "Aap chahein toh is format me aur sentences add kar sakte hain: I feel __ About __ When __",
+        "Agar aur kuch kehna hai toh usi I feel, About, When wale format mein bol sakte hain.",
+        "Kuch aur add karna chahein toh feel free to do so in the same format."
+      ]
+    }
+  },
+  "O-Engineering": {
+    "1": {
+      "canonical": "If you could wave a magic wand, what would you wish were different?",
+      "variations": [
+        "If you could wave a magic wand, what would you wish were different?",
+        "If you could change one thing about this, what would it be?",
+        "If anything were possible, what would you want instead?",
+        "What would you wish for if you could have anything change here?",
+        "If things could be different, what would that look like?",
+        "What's the outcome you're hoping for here?",
+        "Agar aapke paas jadoo ki chhadi hoti, toh aap kya badalna chahte?",
+        "Agar kuch bhi possible hota, toh aap kya chahte ki alag ho?",
+        "Aap is situation mein exactly kya outcome chahte hain?"
+      ]
+    },
+    "2": {
+      "canonical": "Can you rephrase that as: 'I wish ___'?",
+      "variations": [
+        "Can you rephrase that as: I wish ___?",
+        "Could you put that into an 'I wish' statement?",
+        "How would you phrase that starting with 'I wish'?",
+        "Try turning that into: I wish [your goal].",
+        "Can you state that as a single 'I wish' sentence?",
+        "Let's frame that as an 'I wish' statement — how would you say it?",
+        "Kya aap usko 'I wish' statement main convert kar sakte ho?",
+        "Kya aap isko 'Main chahta hoon' ya 'I wish' karke bol sakte hain?",
+        "Isko ek 'I wish' sentence mein kaise kahenge?"
+      ]
+    }
+  },
+  "F-Scripting": {
+    "1": {
+      "canonical": "Imagine how your life would be after having achieved your outcome. How would your life be?",
+      "variations": [
+        "Imagine your life after achieving this outcome — how would your life be?",
+        "How would your day-to-day life look once you've achieved this?",
+        "What would life be like for you after this outcome is real?",
+        "Picture your life once this has happened — what does it look like?",
+        "How would things be different in your life overall?",
+        "What would your life feel like once you've reached this?",
+        "Sochiye jab aapka ye outcome achieve ho jayega, toh aapki life kaisi hogi?",
+        "Jab ye goal mil jayega, tab aapki zindagi mein kya badlaav aayega?",
+        "Apni aage ki life imagine karein jab ye sab theek ho chuka hoga."
+      ]
+    },
+    "2": {
+      "canonical": "Would you be able to tell me 10-15 changes that you will notice once you have achieved your outcome?",
+      "variations": [
+        "Can you tell me 10-15 changes you'd notice once you've achieved this?",
+        "What are some of the changes — maybe 10 or more — you'd notice once this happens?",
+        "Could you list out a bunch of things that would be different, say 10-15 of them?",
+        "What specific changes would you notice, big or small, once this is achieved?",
+        "Give me a good list of changes you'd expect to see once this is real.",
+        "What would be different — walk me through as many changes as you can think of.",
+        "Kya aap mujhe 10-15 changes bata sakte hain jo aap outcome achieve karne ke baad notice karenge?",
+        "Aise kya 10 se 15 badlaav aayenge aapki life mein jab ye poora ho jayega?",
+        "Kuch specific changes ki list de sakte hain jo aap expect kar rahe hain?"
+      ]
+    },
+    "3": {
+      "canonical": "Would someone notice these changes apart from you? Who? What would they tell you once they notice this?",
+      "variations": [
+        "Would someone else notice these changes? Who, and what would they say?",
+        "Who else in your life would pick up on this change, and what might they tell you?",
+        "Would people around you notice a difference? What would they say?",
+        "If someone close to you noticed this change, what do you think they'd comment on?",
+        "Who would be the first to notice, and what would they say to you?",
+        "Would this be visible to others too? What might they point out?",
+        "Aapki life mein ye positive changes dikhenge toh kya aapke ghar wale ya dost bhi notice karenge? Wo kya bolenge?",
+        "Jab ye badlaav aayega toh aapke aas-paas ke logon ko kya fark dikhega, aur unki kya response hogi?",
+        "Kya aapke parivaar ya doston ko bhi dikhega ki aap mein coaching ke baad koi positive change aaya hai?"
+      ]
+    },
+    "4": {
+      "canonical": "What will you see or hear? How would you know?",
+      "variations": [
+        "What would you see or hear? How would you know?",
+        "What are the concrete sights or sounds that would confirm this for you?",
+        "How would you actually know, in terms of what you see or hear?",
+        "What specific things would you notice seeing or hearing?",
+        "What sensory evidence would prove this to you?",
+        "What would you literally be seeing or hearing in that moment?",
+        "Coaching ke baad ke is positive change mein aap exactly kya dikhega ya sunayi dega? Sensory evidence kya hogi?",
+        "Aapko apni aankhon aur kaano se kya concrete cheezein notice hongi jab ye outcome real hoga?",
+        "Kaise pata chalega ki ye sach mein ho raha hai? Kya sensory indicators honge?"
+      ]
+    },
+    "5": {
+      "canonical": "Once you have achieved all this, how would you feel? Where in the body would you feel that specific emotion, and what sensations would you notice?",
+      "variations": [
+        "Once you've achieved this, how would you feel? Where in your body would you feel that, and what sensations would come with it?",
+        "What emotion would you feel once this happens, and where in your body would you notice it?",
+        "How would this feel physically — where would you feel it in your body?",
+        "What sensations would show up in your body once you've reached this?",
+        "Where would you physically feel that emotion, and what would it feel like?",
+        "Once this is real, what would you feel in your body, and where exactly?",
+        "Jab aap ye sab achieve kar lenge, tab aap kaisa feel karenge? Aur body mein exactly kahan sensations aayenge?",
+        "Ye outcome milne par kaunsi emotion feel hogi aur body me kahan?",
+        "Aapko physical sensations kahan mehsoos hongi jab aap ye khushi feel karenge?"
+      ]
+    },
+    "6": {
+      "canonical": "When you notice these changes, what will you say to yourself?",
+      "variations": [
+        "When you notice these changes, what would you say to yourself?",
+        "What would your internal voice say once you see this happening?",
+        "What would you tell yourself in that moment?",
+        "What thought would go through your mind when you notice this?",
+        "What would you say to yourself once you realize this is real?",
+        "What's the first thing you'd think when you notice this?",
+        "Jab aap ye changes notice karenge, toh khud se kya kahenge?",
+        "Apne aap se aapke kya shabd honge us waqt?",
+        "Aapke mann mein us time khud ke liye kya khayal aayega?"
+      ]
+    },
+    "miracle_question": {
+      "canonical": "Imagine you go to sleep tonight, and while you are sleeping, a miracle occurs. The outcome you defined is fulfilled completely. When you open your eyes tomorrow morning, what is the very first material indicator that proves to your mind that this miracle has taken place?",
+      "variations": [
+        "Imagine you go to sleep tonight, and while you're sleeping, a miracle happens — the outcome you described is now fulfilled. When you open your eyes tomorrow, what's the very first concrete sign that tells you this miracle happened?",
+        "Suppose a miracle occurs overnight and your wish comes true — what's the first thing you'd notice tomorrow morning that tells you it happened?",
+        "If you woke up tomorrow and everything had changed exactly as you wished, what's the very first sign you'd see or feel?",
+        "Let's say this all got resolved overnight — what would be the first clue tomorrow morning that it actually happened?",
+        "Picture waking up to your wish already fulfilled — what's the first concrete thing that would tell you it's real?",
+        "Sochiye aaj raat aap so rahe hain aur ek chamatkar hota hai, aur aapka outcome poora ho jata hai. Subah uthne par aapko sabse pehle kya indicator milega ki miracle ho gaya hai?",
+        "Maan lijiye raat-o-raat aapki wish poori ho gayi. Kal subah uthte hi sabse pehli kya cheez notice karenge?",
+        "Agar miracle ho gaya toh kal subah sabse pehla sign kya hoga jo aapko proof dega?"
+      ]
+    },
+    "domain_health": {
+      "canonical": "What difference will you notice in your Health once you have achieved this outcome?",
+      "variations": [
+        "What difference would you notice in your health once you've achieved this?",
+        "How would your health be different once this happens?",
+        "What would change about your physical health or wellbeing?",
+        "Would you notice anything different in terms of your health?",
+        "How might your health improve or change with this outcome?",
+        "Aapki health mein kya badlaav aayega is outcome ke baad?",
+        "Health aur physical fitness mein kya difference dikhega?"
+      ]
+    },
+    "domain_finance": {
+      "canonical": "What difference will you notice in your Finances?",
+      "variations": [
+        "What difference would you notice in your finances?",
+        "How would your financial situation be different?",
+        "What would change about your money situation?",
+        "Would there be any difference in your finances?",
+        "How might your finances look different once this is achieved?",
+        "Aapke finances ya paiso mein kya difference notice hoga?",
+        "Financial condition mein kya farq aayega?"
+      ]
+    },
+    "domain_career": {
+      "canonical": "What difference will you notice in your Career?",
+      "variations": [
+        "What difference would you notice in your professional career?",
+        "How will your professional trajectory change after achieving this?",
+        "What improvements will you see in your professional life once this is resolved?",
+        "Would you notice a difference in your career path?",
+        "How might your career look different once this happens?",
+        "Aapke professional career mein kya badlaav aayega is outcome ke baad?",
+        "Professional life mein kya difference dikhega?"
+      ]
+    },
+    "domain_personal_growth": {
+      "canonical": "What difference will you notice in your Personal Growth?",
+      "variations": [
+        "What difference would you notice in your personal growth?",
+        "How would you grow or develop differently?",
+        "What would change in terms of your own personal development?",
+        "Would you notice a difference in how you're growing as a person?",
+        "How might this affect your personal development?",
+        "Aapki personal growth mein kya farq notice karenge aap?",
+        "Aap as a person kitna grow karenge iske baad?"
+      ]
+    },
+    "domain_relationships": {
+      "canonical": "What difference will you notice in your Relationships (Romantic, Family, Social)?",
+      "variations": [
+        "What difference would you notice in your relationships — romantic, family, or social?",
+        "How would your relationships be different?",
+        "What would change with the people in your life?",
+        "Would you notice a difference in your relationships with others?",
+        "How might things look different with your family, partner, or friends?",
+        "Jab aap ye changes achieve karenge toh aapke relationships mein kya fark padega?",
+        "Family ya doston ke saath aapki bonding mein kya badlaav dikhega jab ye goal poora hoga?"
+      ]
+    }
+  },
+  "T-Mapping": {
+    "1": {
+      "canonical": "What steps do you need to take to accomplish this outcome?",
+      "variations": [
+        "Now that we have a clear vision, what steps do you need to take to get there?",
+        "What do you think needs to happen to make this a reality?",
+        "What actions would get you closer to this outcome?",
+        "What would you need to do to achieve this?",
+        "What steps come to mind to make this happen?",
+        "How would you actually get from here to that outcome?",
+        "Is outcome ko poora karne ke liye aapko kya steps lene honge?",
+        "Ab kya actions lene padenge isko achieve karne ke liye?",
+        "Aapke hisaab se next steps kya hone chahiye?"
+      ]
+    },
+    "2": {
+      "canonical": "What else? Is there anything else that would help?",
+      "variations": [
+        "What else? Is there anything else that would help?",
+        "Anything else that might help you get there?",
+        "What other steps could support this?",
+        "Are there additional action steps that could move you closer to this goal?",
+        "What else comes to mind that might help?",
+        "Any other actions worth considering?",
+        "Aur kya? Kuch aur hai jo isme madad kar sakta hai?",
+        "Aur koi action step hai jo aapko is goal ke kareeb le jaaye?",
+        "Aur koi action jo lena zaruri hai?"
+      ]
+    },
+    "3": {
+      "canonical": "Do you know someone who has accomplished this? How did they do it, or what can you do to find out?",
+      "variations": [
+        "Do you know someone who's done this before? How did they do it, or how could you find out?",
+        "Is there someone you know who's achieved something similar? What did they do?",
+        "Could you learn from someone who's already been through this?",
+        "Do you know anyone who's accomplished this kind of thing?",
+        "Who might you ask or look to for guidance on this?",
+        "Kya aap kisi aise ko jante hain jisne ye kiya ho? Unhone kaise kiya, ya aap kaise pata laga sakte hain?",
+        "Kisi aur ne ye achieve kiya hai kya? Hum unse kya seekh sakte hain?",
+        "Kisi aur ne is tarah ki situation ko kaise solve kiya, kya aapko pata hai?"
+      ]
+    },
+    "4": {
+      "canonical": "Here is a suggested sequence for these steps. Does this look good to you, or would you like to tweak the order in any way?",
+      "variations": [
+        "Here's a suggested order for these steps — does this look right, or would you like to reorder anything?",
+        "I've put these in a suggested sequence — does this order make sense to you?",
+        "Does this order look good, or would you rearrange anything?",
+        "Take a look at this sequence — happy with the order, or want changes?",
+        "Here's how I'd sequence these — thoughts on the order?",
+        "Ye ek suggested sequence hai in steps ka. Kya ye theek lag raha hai ya aap order change karna chahenge?",
+        "In actions ka order dekh lijiye, kya ye sequence sahi lag raha hai?",
+        "Kya hum is list ko aise hi rakhein ya order aage-peeche karna hai?"
+      ]
+    },
+    "5": {
+      "canonical": "Which of these tasks are you currently not doing or feeling stuck on?",
+      "variations": [
+        "Looking at this list, which of these tasks are you not currently doing, or feel stuck on?",
+        "Which of these are you already stuck on or haven't started?",
+        "Are there any tasks here you're having trouble with?",
+        "Which ones feel hard or are you avoiding?",
+        "Which tasks on this list feel difficult right now?",
+        "In tasks mein se kaunse aap abhi nahi kar rahe ya jisme fas gaye hain?",
+        "Kis task mein aapko problem ho rahi hai ya jo aapse nahi ho raha?",
+        "Kaunse action steps par aap atak gaye hain?"
+      ]
+    },
+    "pass1_friction": {
+      "canonical": "Out of the tasks you just mentioned, do any of them feel blocked by an internal thought, negative emotion, or hesitation? If so, which ones?",
+      "variations": [
+        "Do any of these tasks feel blocked by a thought, emotion, or hesitation?",
+        "Is there an emotional reason any of these feel hard?",
+        "Are any of these tasks stuck because of how you're feeling about them?",
+        "Do any of these come with some internal resistance or hesitation?",
+        "Is something emotional getting in the way of any of these?",
+        "Jo tasks aapne bataye, kya unme se kisi pe aapko internal hesitation, negative emotion ya blockage feel ho raha hai?",
+        "Kya kisi task ko karne se pehle andar se dar ya ghutan feel hoti hai?",
+        "Inme se koi action lene mein emotional blockage aa raha hai kya?"
+      ]
+    },
+    "ms_1": {
+      "canonical": "What specific emotion is stopping you here?",
+      "variations": [
+        "What specific emotion is stopping you here?",
+        "What feeling is getting in the way?",
+        "What emotion comes up when you think about this task?",
+        "What are you feeling that's making this hard?",
+        "What's the emotion behind this block?",
+        "Yahan par exact kaunsi emotion aapko rok rahi hai?",
+        "Kaunsi feeling hai jo is task ke beech me aa rahi hai?",
+        "Kya mehsoos ho raha hai jiski wajah se aap ye nahi kar pa rahe?"
+      ]
+    },
+    "ms_2": {
+      "canonical": "When you feel that emotion, what is the specific thought that goes through your mind?",
+      "variations": [
+        "When you feel that emotion, what thought goes through your mind?",
+        "What are you thinking when that feeling comes up?",
+        "What's the thought behind that emotion?",
+        "What goes through your head in that moment?",
+        "What do you tell yourself when you feel that way?",
+        "Jab aap wo emotion feel karte hain, toh aapke mind mein exact kya thought aata hai?",
+        "Us waqt aapke dimaag me kya khayal chal raha hota hai?",
+        "Us feeling ke saath-saath kaunsa thought juda hua hai?"
+      ]
+    },
+    "ms_3": {
+      "canonical": "What would be a more helpful alternative emotion you would like to feel instead?",
+      "variations": [
+        "What would be a more helpful feeling you'd want instead?",
+        "What emotion would you rather feel in that moment?",
+        "What would be a better feeling to have here?",
+        "If not that emotion, what would you prefer to feel?",
+        "What's a more useful emotion you could aim for instead?",
+        "Aap is emotion ki jagah kaunsi positive ya helpful emotion feel karna chahenge?",
+        "Is buri feeling ki bajaye aap kya feel karna prefer karenge?",
+        "Kaunsi alternative feeling aapko zyada help karegi yahan?"
+      ]
+    },
+    "ms_4": {
+      "canonical": "What is an alternative thought you could use to replace the old one?",
+      "variations": [
+        "What's an alternative thought you could use instead of the old one?",
+        "What could you tell yourself instead?",
+        "What's a different thought that could replace that one?",
+        "What would be a more helpful thing to think in that moment?",
+        "What new thought could you swap in for that old one?",
+        "Us purane thought ko replace karne ke liye kaunsa naya aur helpful thought use kar sakte hain?",
+        "Khud ko us purane khayal ki jagah kya naya bata sakte hain?",
+        "Kaunsi nayi baat aapko us negative thought se bahar nikalegi?"
+      ]
+    },
+    "ms_5": {
+      "canonical": "To remind you of this new thought, what will be your exact physical or time-based trigger?",
+      "variations": [
+        "What will be your exact trigger to remind you of this new thought?",
+        "What physical or time-based cue will remind you of this?",
+        "What's something specific — a place, time, or object — that'll remind you?",
+        "What could act as your reminder trigger for this new thought?",
+        "What real-world cue would help you remember this?",
+        "Is naye thought ko yaad rakhne ke liye aapka exact physical ya time-based trigger kya hoga?",
+        "Kaunsi cheez ya time aapko is naye thought ki yaad dilayega?",
+        "Aisa kya cue banayenge jisse automatically aapko ye yaad aa jaye?"
+      ]
+    },
+    "ms_7": {
+      "canonical": "Does this new thought feel powerful enough to make you take the desired action, or does it need some edits?",
+      "variations": [
+        "Does this feel powerful enough to help you take action, or does it need adjusting?",
+        "Does this thought feel strong enough to actually help, or should we tweak it?",
+        "Is this convincing enough for you, or does it need changes?",
+        "Does that feel right, or would you like to adjust it?",
+        "Is this good as is, or should we edit it further?",
+        "Kya ye naya thought itna powerful lag raha hai ki aapse action karwa sake, ya isme kuch changes karne hain?",
+        "Kya ye thought kaafi strong hai ya isko aur modify karein?",
+        "Kya ye andar se sahi lag raha hai ya hum ise aur behtar banayein?"
+      ]
+    },
+    "ms_8": {
+      "canonical": "When do you plan to practice this specific statement daily?",
+      "variations": [
+        "When will you practice this daily? I recommend setting a reminder.",
+        "What time each day will you practice this statement?",
+        "When would you commit to practicing this every day?",
+        "What's a good daily time to reinforce this?",
+        "When do you think you'll do this practice each day?",
+        "Aap is specific statement ko daily kab practice karenge?",
+        "Har roz iski practice karne ke liye kaunsa time set karenge?",
+        "Kis time daily aap isko bolne ki habit dalenge?"
+      ]
+    }
+  },
+  "SEA-Closure": {
+    "step_a_scheduling": {
+      "canonical": "For the task [Insert Task Name], when exactly do you plan to execute it?",
+      "variations": [
+        "For this task, when exactly do you plan to do this?",
+        "When will you actually do this one?",
+        "What specific day and time will you tackle this task?",
+        "When are you planning to get this done?",
+        "Let's pin down a time — when will you do this?",
+        "Is task ke liye, aap exactly kab isko execute karne ka plan kar rahe hain?",
+        "Ye action aap kab exactly poora karenge?",
+        "Kis din aur kis time isko karne ka socha hai aapne?"
+      ]
+    },
+    "step_b_certainty": {
+      "canonical": "On a scale of 1-10, how certain are you that you will execute this task at that scheduled time?",
+      "variations": [
+        "On a scale of 1-10, how certain are you that you'll do this at that time?",
+        "How confident are you, 1 to 10, that this will actually happen then?",
+        "On a 1-10 scale, how sure are you that you'll follow through?",
+        "How likely, on a scale of 1-10, is it that you'll do this as planned?",
+        "Rate your certainty 1-10 that you'll actually do this.",
+        "1 se 10 ke scale par, aap kitne sure hain ki aap us scheduled time par ye task karenge?",
+        "Kitna confidence hai aapko 1 to 10 mein ki aap ise poora kar lenge?",
+        "Aap kitne certain hain is action ko wahi time pe lene ke liye?"
+      ]
+    },
+    "step_c_diagnostic": {
+      "canonical": "What is the specific reason you feel unsure about completing this task at this scheduled time?",
+      "variations": [
+        "What's the specific reason you feel unsure about completing this at that time?",
+        "What's making you less than fully confident here?",
+        "Why isn't your certainty higher on this one?",
+        "What's the hesitation about doing this at that time?",
+        "What's behind that lower certainty score?",
+        "Wo kaunsi specific reason hai jiski wajah se aapko lag raha hai ki aap shayad ye task na kar payein?",
+        "Kaunsi wajah hai jo aapka confidence thoda kam kar rahi hai yahan?",
+        "Kya cheez aapko doubt de rahi hai isko us time pe karne se?"
+      ]
+    },
+    "cognitive_summary": {
+      "canonical": "Can you summarize your biggest internal shifts or takeaways from our session today in 3-4 lines?",
+      "variations": [
+        "Now that everything is mapped and scheduled, can you summarize your biggest takeaways from today in 3-4 lines?",
+        "What are your key takeaways from today's session, in just a few lines?",
+        "Can you sum up what shifted for you today?",
+        "In a few sentences, what will you remember most from this session?",
+        "What's the main thing you're taking away from today?",
+        "Kya aap aaj ke session ki sabse badi takeaways 3-4 lines mein summarize kar sakte hain?",
+        "Aaj ki meeting ka sabse bada internal shift kya raha aapke liye?",
+        "Aap yahan se sabse zaroori kya seekh ke ja rahe hain aaj?"
+      ]
+    }
+  }
+}
