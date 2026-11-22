@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E7CF7" />
+      <stop offset="100%" stop-color="#6C5CE7" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#141419" />
+  <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none" stroke="#2A2A33" stroke-width="1" />
+  <!-- Dialogue & Mind Spark -->
+  <path d="M8 15.5C8 11.358 11.582 8 16 8C20.418 8 24 11.358 24 15.5C24 17.338 23.315 19.022 22.172 20.325L22.8 23.5L19.45 22.65C18.375 23.01 17.214 23.2 16 23.2C11.582 23.2 8 19.842 8 15.5Z" fill="url(#brandGrad)" />
+  <circle cx="12.8" cy="15.5" r="1.2" fill="#FFFFFF" />
+  <circle cx="16" cy="15.5" r="1.2" fill="#FFFFFF" />
+  <circle cx="19.2" cy="15.5" r="1.2" fill="#FFFFFF" />
+</svg>

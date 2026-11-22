@@ -1,0 +1,59 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String        @id @default(cuid())
+  email     String        @unique
+  name      String?
+  createdAt DateTime      @default(now())
+  sessions  ChatSession[]
+  personas  Persona[]
+}
+
+model Persona {
+  id           String        @id @default(cuid())
+  userId       String?
+  user         User?         @relation(fields: [userId], references: [id])
+  name         String
+  slug         String
+  languagePref String        // "english" | "hindi_roman" | "hinglish"
+  difficulty   String        // "beginner" | "intermediate" | "advanced"
+  gender       String?       // "male" | "female" | "other"
+  content      String        // full markdown character sheet — the single source of truth
+  isBuiltin    Boolean       @default(false)
+  isAiGenerated Boolean      @default(false)
+  createdAt    DateTime      @default(now())
+  sessions     ChatSession[]
+}
+
+model ChatSession {
+  id         String      @id @default(cuid())
+  userId     String
+  user       User        @relation(fields: [userId], references: [id])
+  personaId  String
+  persona    Persona     @relation(fields: [personaId], references: [id])
+  transcript String      @default("[]") // JSON array stored as text — Prisma Json type works on both SQLite (as text) and Postgres (as jsonb)
+  hintLog    String      @default("[]") // JSON-serialized array of { timestamp, afterMessageId, hintText, mistakeFlag }
+  startedAt  DateTime    @default(now())
+  endedAt    DateTime?
+  evaluation Evaluation?
+}
+
+model Evaluation {
+  id             String      @id @default(cuid())
+  sessionId      String      @unique
+  session        ChatSession @relation(fields: [sessionId], references: [id])
+  overallScore   Int?
+  reportMarkdown String      @default("") // the full rendered natural-language report
+  status         String      @default("pending") // "pending" | "complete" | "failed"
+  createdAt      DateTime    @default(now())
+}
